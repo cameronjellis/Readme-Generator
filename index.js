@@ -1,7 +1,9 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
+// const licenseBadge = require("./utils/licenseSection.js");
 const licenseSection = require("./utils/licenseSection.js");
+
 // const generateMd = require("./utils/generateMarkdown.js");
 // console.log(generateMd);
 // TODO: Create an array of questions for user input
@@ -29,7 +31,7 @@ const questions = [
   {
     type: "list",
     message: "What license should your project to be licensed under?",
-    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+    choices: ["MIT", "APACHE", "GPL", "BSD", "Other"],
     name: "license",
   },
   {
@@ -74,7 +76,10 @@ const questions = [
 // create my template literal (whole readme file)
 function writeToFile(data) {
   console.log(data);
-  return `# ${data.title}
+  return `![${data.license} license](https://img.shields.io/badge/${
+    data.license
+  }-license-blue)
+# ${data.title}
 
 ## Description
 
@@ -117,7 +122,7 @@ ${data.deployed}
 
 ## Screenshot
 
-![${data.title}]("${data.screenshot}")
+![${data.title}](${data.screenshot})
 
 ## Questions
 
