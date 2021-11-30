@@ -1,1 +1,0 @@
-{"gitHub":"cam","email":"cam","title":"ellis","description":"","license":"MIT","install":"","test":"","usage":"","contribution":""}

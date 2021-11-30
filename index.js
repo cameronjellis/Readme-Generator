@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 // const licenseBadge = require("./utils/licenseSection.js");
-const licenseSection = require("./utils/licenseSection.js");
+const writeToFile = require("./utils/templateLit.js");
 
 // const generateMd = require("./utils/generateMarkdown.js");
 // console.log(generateMd);
@@ -74,63 +74,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 // create my template literal (whole readme file)
-function writeToFile(data) {
-  console.log(data);
-  return `![${data.license} license](https://img.shields.io/badge/${
-    data.license
-  }-license-blue)
-# ${data.title}
 
-## Description
-
-${data.description}
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Tests](#tests)
-- [Contributing](#contributing)
-- [License](#license)
-- [Link](#link)
-- [Screenshot](#screenshot)
-- [Questions](#questions)
-
-## Installation
-
-${data.install}
-
-## Usage
-
-${data.usage}
-
-## Tests
-
-${data.test}
-
-## Contributing
-
-${data.contribution}
-
-## License
-
-${licenseSection(data)}
-
-## Link
-
-${data.deployed}
-
-## Screenshot
-
-![${data.title}](${data.screenshot})
-
-## Questions
-
-#### If you have questions or would like to contact me for more information, you can find me on Git Hub or send me and email.
-
-- https://github.com/${data.gitHub}
-- ${data.email}`;
-}
 //for adding black background to code snippets in readme
 // TODO: Create a function to initialize app
 function init() {
