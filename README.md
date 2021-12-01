@@ -1,9 +1,10 @@
-![GPL license](https://img.shields.io/badge/GPL-license-blue)
-# Readme.md Generator
+![MIT license](https://img.shields.io/badge/MIT-license-blue)
+
+# Readme Generator
 
 ## Description
 
-This project was built to help developers generate readmes
+This command line application was developed to help create high quality, professional readme files quickly and efficiently. No need to worry about formatting badges or image tags anymore. All of that functionality is built into this application. The motivation for this project comes from the need to have a high quality readme to accurately describe and license your project. This application makes all of this a wallk in the park and allows you to get projects done quicker!
 
 ## Table of Contents
 
@@ -22,31 +23,31 @@ This project was built to help developers generate readmes
 
 ## Usage
 
-Once the app is cloned, node index.js
+Once the repository has been cloned to your local machine, simply navigate into the correct directory and run 'node index.js' and answer a series of questions that will be used to populate your readme file. Dont worry if you make mistakes, you can always run the program again and rewrite the readme file, or edit it afterwards.
 
 ## Tests
 
-n/a
+There are currently no tests written for this application, however feel free to write some and test away!
 
 ## Contributing
 
-contributor covenant
+Please follow the code of conduct defined in the Contributor Covenant.
 
 ## License
 
-This project is licensed under the GPL license. (c) 2021
+This project is licensed under the MIT license. (c) 2021
 
 ## Link
 
-N/a
+https://drive.google.com/file/d/15SKQP0-SF3Uxh_FOsyl49UX2kiPSnRmk/view
 
 ## Screenshot
 
-![Readme.md Generator](./images/readme-generator-screenshot.png)
+![Readme Generator](./images/readme-generator-screenshot.png)
 
 ## Questions
 
 #### If you have questions or would like to contact me for more information, you can find me on Git Hub or send me and email.
 
-- https://github.com/elliscj 
+- https://github.com/elliscj
 - elliscj@colorado.edu

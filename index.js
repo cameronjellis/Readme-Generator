@@ -86,3 +86,6 @@ init();
 
 // relative image path for screenshot section
 // ./images/readme-generator-screenshot.png
+
+// Link to the Walkthrough video
+// https://drive.google.com/file/d/15SKQP0-SF3Uxh_FOsyl49UX2kiPSnRmk/view
