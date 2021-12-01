@@ -1,9 +1,9 @@
-![MIT license](https://img.shields.io/badge/MIT-license-blue)
-# f
+![GPL license](https://img.shields.io/badge/GPL-license-blue)
+# Readme.md Generator
 
 ## Description
 
-f
+This project was built to help developers generate readmes
 
 ## Table of Contents
 
@@ -18,35 +18,35 @@ f
 
 ## Installation
 
-    npm i
+    npm install inquirer
 
 ## Usage
 
-
+Once the app is cloned, node index.js
 
 ## Tests
 
-
+n/a
 
 ## Contributing
 
-
+contributor covenant
 
 ## License
 
-This project is licensed under the MIT license. (c) 
+This project is licensed under the GPL license. (c) 2021
 
 ## Link
 
-
+N/a
 
 ## Screenshot
 
-![f]()
+![Readme.md Generator](./images/readme-generator-screenshot.png)
 
 ## Questions
 
 #### If you have questions or would like to contact me for more information, you can find me on Git Hub or send me and email.
 
-- https://github.com/ljljljl
-- fffff
+- https://github.com/elliscj 
+- elliscj@colorado.edu

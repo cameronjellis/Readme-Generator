@@ -1,12 +1,11 @@
-// TODO: Include packages needed for this application
+// Modules being required in to be used in this file.
+
 const fs = require("fs");
 const inquirer = require("inquirer");
-// const licenseBadge = require("./utils/licenseSection.js");
 const writeToFile = require("./utils/templateLit.js");
 
-// const generateMd = require("./utils/generateMarkdown.js");
-// console.log(generateMd);
-// TODO: Create an array of questions for user input
+// Array of objects to be called with inquirer.
+
 const questions = [
   {
     type: "input",
@@ -72,21 +71,18 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
-// create my template literal (whole readme file)
+// Function that handles asking the questions and calling and external method passing in 'data'.
 
-//for adding black background to code snippets in readme
-// TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((data) => {
-    // console.log(data);
-    // generateMarkdown(data);
     fs.writeFile("README.md", writeToFile(data), (err) => {
       err ? console.log(err) : console.log("Readme.md file is ready!");
     });
-    // console.log(data.title);
   });
 }
 
 // Function call to initialize app
 init();
+
+// relative image path for screenshot section
+// ./images/readme-generator-screenshot.png
