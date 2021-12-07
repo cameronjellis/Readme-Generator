@@ -66,7 +66,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What was this project published?",
+    message: "What year was this project published?",
     name: "year",
   },
 ];
@@ -75,7 +75,7 @@ const questions = [
 
 function init() {
   inquirer.prompt(questions).then((data) => {
-    fs.writeFile("README.md", writeToFile(data), (err) => {
+    fs.writeFile("./exports/README.md", writeToFile(data), (err) => {
       err ? console.log(err) : console.log("Readme.md file is ready!");
     });
   });
