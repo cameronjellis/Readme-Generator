@@ -6,6 +6,8 @@
 
 This command line application was developed to help create high quality, professional readme files quickly and efficiently. No need to worry about formatting badges or image tags anymore. All of that functionality is built into this application. The motivation for this project comes from the need to have a high quality readme to accurately describe and license your project. This application makes all of this a wallk in the park and allows you to get projects done quicker!
 
+NOTE: Make sure there is an exports folder in the root of this porject so the script has somewere to save the file. 
+
 ## Table of Contents
 
 - [Installation](#installation)

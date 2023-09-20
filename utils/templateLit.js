@@ -52,7 +52,7 @@ ${data.deployed}
 
 ## Questions
 
-#### If you have questions or would like to contact me for more information, you can find me on Git Hub or send me and email.
+#### If you have questions or would like to contact me or any of the contributors for more information, you can find us on Git Hub or send us and email.
 
 - https://github.com/${data.gitHub}
 - ${data.email}`;
